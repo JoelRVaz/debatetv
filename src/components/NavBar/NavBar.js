@@ -19,9 +19,11 @@ export default class NavBar extends Component {
                         <SearchBar></SearchBar>
                     </div>
                 <div id="right-components">
-                    <PublishOutlinedIcon className="icon" id="upload-icon"></PublishOutlinedIcon>
-                    <NotificationsNoneIcon className="icon" id="bell-icon"></NotificationsNoneIcon>
-                    <img className="profile-icon" src="http://unsplash.it/36/36?gravity=center" />
+                        <PublishOutlinedIcon className="icon" id="upload-icon"></PublishOutlinedIcon>
+                        <IconButton size="medium    ">
+                          <NotificationsNoneIcon className="icon" id="bell-icon"></NotificationsNoneIcon>
+                        </IconButton>
+                        <img id="profile-icon" className="icon" src="http://unsplash.it/36/36?gravity=center" />
                 </div>
             </div>
         )
