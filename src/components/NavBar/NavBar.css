@@ -9,28 +9,26 @@
     height: 36px;
   }
 
-.NavBar {
+.NavBar, #right-components, #left-components {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#right-components {
-    display: flex;
-    align-items: center;
-}
-
 #search-bar {
-    width: 60vw;
-    max-width: 500px !important;
-
+    width: 100%;
 }
 
 #right-components{
     width: 145px;
-    margin: 0px 30px;
+    margin: 0px 10px 0px 20px;
 }
 
 #left-components{
-    margin: 0px 30px;
+    margin: 0px 20px 0px 10px;
+}
+
+#center-components {
+    width: 80%;
+    max-width: 600px;
 }
