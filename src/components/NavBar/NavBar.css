@@ -1,12 +1,25 @@
+
 #upload-icon, #hamburger-icon, #bell-icon {
-    font-size: 30px;
+    font-size: 30px !important;
     color: rgb(80, 80, 80);
+}
+
+.icon-btn {
+    padding: 7px !important;
+}
+.icon-btn:hover {
+    background-color: rgb(216, 216, 216) !important;
+}
+
+.NavBar {
+    padding: 10px 3px;
 }
 
 #profile-icon {
     border-radius: 50%;
     width: 36px;
     height: 36px;
+    margin: 4px;
   }
 
 .NavBar, #right-components, #left-components {
@@ -20,12 +33,12 @@
 }
 
 #right-components{
-    width: 145px;
-    margin: 0px 10px 0px 20px;
+    width: 155px;
+    margin: 0px 16px 0px 10px;
 }
 
 #left-components{
-    margin: 0px 20px 0px 10px;
+    margin: 0px 10px 0px 8px;
 }
 
 #center-components {
@@ -33,6 +46,9 @@
     max-width: 600px;
 }
 
-.icon {
-    padding:0px;
+.button:hover {
+    border-radius: 50px;
+    background-color: rgb(224, 224, 224);
+    color: white;
 }
+
