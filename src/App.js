@@ -1,15 +1,23 @@
-import ThumbnailCard from './components/ThumbnailCard/ThumbnailCard.js'
-import NavBar from './components/NavBar/NavBar.js';
-import ReactDOM from 'react-dom';
-
-
-
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <NavBar></NavBar>
-      <ThumbnailCard></ThumbnailCard>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
