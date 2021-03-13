@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <NavBar></NavBar>
       <ThumbnailCard></ThumbnailCard>
+      <ThumbnailCard></ThumbnailCard>
     </div>
   );
 }
